@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package muamalahmatrix;
+
+service MuamalahMatrixBackend {
+  rpc CreateTransaction(CreateTransactionRequest) returns (CreateTransactionResponse) {}
+  rpc GetTransaction(GetTransactionRequest) returns (GetTransactionResponse) {}
+  rpc UpdateTransaction(UpdateTransactionRequest) returns (UpdateTransactionResponse) {}
+  rpc DeleteTransaction(DeleteTransactionRequest) returns (DeleteTransactionResponse) {}
+}
+
+message CreateTransactionRequest {
+  string user_id = 1;
+  int32 amount = 2;
+  string transaction_type = 3;
+}
+
+message CreateTransactionResponse {
+  string transaction_id = 1;
+  string message = 2;
+}
+
+message GetTransactionRequest {
+  string transaction_id = 1;
+}
+
+message GetTransactionResponse {
+  string transaction_id = 1;
+  string user_id = 2;
+  int32 amount = 3;
+  string transaction_type = 4;
+}
+
+message UpdateTransactionRequest {
+  string transaction_id = 1;
+  int32 amount = 2;
+  string transaction_type = 3;
+}
+
+message UpdateTransactionResponse {
+  string transaction_id = 1;
+  string message = 2;
+}
+
+message DeleteTransactionRequest {
+  string transaction_id = 1;
+}
+
+message DeleteTransactionResponse {
+  string transaction_id = 1;
+  string message = 2;
+}
