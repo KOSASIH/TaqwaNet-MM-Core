@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package muamalahmatrix;
+
+service MuamalahMatrix {
+  rpc MuamalahMatrix(MuamalahMatrixRequest) returns (MuamalahMatrixResponse) {}
+}
+
+message MuamalahMatrixRequest {
+  string user_id = 1;
+  int32 amount = 2;
+}
+
+message MuamalahMatrixResponse {
+  string message = 1;
+}
