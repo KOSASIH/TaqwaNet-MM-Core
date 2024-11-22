@@ -16,7 +16,7 @@ psycopg2-binary==2.9.3           # PostgreSQL database adapter
 web3==5.29.0                     # Ethereum blockchain interaction library
 
 # AI and Machine Learning
-scikit-learn==1.0.2              # Machine learning library
+scikit-learn==1.5.0              # Machine learning library
 pandas==1.3.5                    # Data manipulation and analysis
 numpy==1.21.4                    # Numerical computing
 nltk==3.6.3                      # Natural Language Toolkit for text processing
