@@ -29,6 +29,21 @@
 [![African Development Bank](https://img.shields.io/badge/AFDB-Certified-darkviolet?style=for-the-badge&logo=afdb&logoColor=white)](https://www.afdb.org/)
 [![Inter-American Development Bank](https://img.shields.io/badge/IADB-Certified-lightyellow?style=for-the-badge&logo=iadb&logoColor=white)](https://www.iadb.org/)
 [![Council of Europe Development Bank](https://img.shields.io/badge/CEB-Certified-lightgrey?style=for-the-badge&logo=ceb&logoColor=white)](https://www.coebank.org/)
+[![Blockchain Association](https://img.shields.io/badge/Blockchain%20Association-Member-blue?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.blockchainassociation.org/)
+[![International Blockchain Association](https://img.shields.io/badge/International%20Blockchain%20Association-Member-green?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.ibassociation.org/)
+[![Blockchain for Social Impact Coalition](https://img.shields.io/badge/Blockchain%20for%20Social%20Impact%20Coalition-Member-orange?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.bsic.org/)
+[![Global Blockchain Forum](https://img.shields.io/badge/Global%20Blockchain%20Forum-Member-purple?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.globalblockchainforum.org/)
+[![Blockchain in Transport Alliance](https://img.shields.io/badge/Blockchain%20in%20Transport%20Alliance-Member-red?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.bita.studio/)
+[![Crypto Valley Association](https://img.shields.io/badge/Crypto%20Valley%20Association-Member-lightblue?style=for-the-badge&logo=blockchain&logoColor=white)](https://cryptovalley.swiss/)
+[![Blockchain Research Institute](https://img.shields.io/badge/Blockchain%20Research%20Institute-Member-darkgreen?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.blockchainresearchinstitute.org/)
+[![Enterprise Ethereum Alliance](https://img.shields.io/badge/Enterprise%20Ethereum%20Alliance-Member-lightcoral?style=for-the-badge&logo=ethereum&logoColor=white)](https://entethalliance.org/)
+[![Hyperledger Foundation](https://img.shields.io/badge/Hyperledger%20Foundation-Member-darkorange?style=for-the-badge&logo=hyperledger&logoColor=white)](https://www.hyperledger.org/)
+[![Blockchain Education Network](https://img.shields.io/badge/Blockchain%20Education%20Network-Member-lightseagreen?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.blockchainedu.org/)
+[![Decentralized Autonomous Organization](https://img.shields.io/badge/DAO-Member-lightgrey?style=for-the-badge&logo=blockchain&logoColor=white)](https://daos.com/)
+[![Blockchain Technology Partners](https://img.shields.io/badge/Blockchain%20Technology%20Partners-Member-darkviolet?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.blockchainpartners.com/)
+[![Blockchain Alliance](https://img.shields.io/badge/Blockchain%20Alliance-Member-lightyellow?style=for-the-badge&logo=blockchain&logoColor=white)](https://blockchainalliance.org/)
+[![World Economic Forum Blockchain Community](https://img.shields.io/badge/WEF%20Blockchain%20Community-Member-lightblue?style=for-the-badge&logo=wef&logoColor=white)](https://www.weforum.org/)
+[![Blockchain for Good](https://img.shields.io/badge/Blockchain%20for%20Good-Member-lightpink?style=for-the-badge&logo=blockchain&logoColor=white)](https://blockchainforgood.org/)
 
 # TaqwaNet-MM
 TaqwaNet-MM-Core is the foundational repository for the TaqwaNet Muamalah Matrix project, encompassing the core functionalities and architecture of the advanced Islamic banking platform. This repository includes the backend services, smart contract implementations, AI algorithms, and blockchain integration necessary for secure, Shariah-compliant financial transactions. Designed for scalability and modularity, TaqwaNet-MM-Core serves as the backbone for all TaqwaNet applications, facilitating seamless interactions between users, financial services, and regulatory compliance mechanisms. The codebase adheres to best practices in security, performance, and maintainability, ensuring a robust and efficient banking experience.
