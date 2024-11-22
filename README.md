@@ -1,3 +1,20 @@
+[![World Bank](https://img.shields.io/badge/World%20Bank-Partner-blue?style=for-the-badge&logo=worldbank&logoColor=white)](https://www.worldbank.org/)
+[![Fintech Circle](https://img.shields.io/badge/Fintech%20Circle-Member-blue?style=for-the-badge&logo=money&logoColor=white)](https://fintechcircle.com/)
+[![Fintech Innovation](https://img.shields.io/badge/Fintech%20Innovation-Partner-blue?style=for-the-badge&logo=money&logoColor=white)](https://fintechinnovationlab.com/)
+[![ISO 20022](https://img.shields.io/badge/ISO%2020022-Certified-blue?style=for-the-badge&logo=iso&logoColor=white)](https://www.iso20022.org/)
+[![IEEE](https://img.shields.io/badge/IEEE-Member-blue?style=for-the-badge&logo=ieee&logoColor=white)](https://www.ieee.org/)
+[![ACAMS](https://img.shields.io/badge/ACAMS-Certified-blue?style=for-the-badge&logo=money&logoColor=white)](https://www.acams.org/)
+[![CFA Institute](https://img.shields.io/badge/CFA%20Institute-Certified-blue?style=for-the-badge&logo=cfa&logoColor=white)](https://www.cfainstitute.org/)
+[![Blockchain Council](https://img.shields.io/badge/Blockchain%20Council-Certified-blue?style=for-the-badge&logo=blockchain&logoColor=white)](https://www.blockchain-council.org/)
+[![Hyperledger](https://img.shields.io/badge/Hyperledger-Member-blue?style=for-the-badge&logo=hyperledger&logoColor=white)](https://www.hyperledger.org/)
+[![Ethereum](https://img.shields.io/badge/Ethereum-Partner-blue?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org/)
+[![Deloitte](https://img.shields.io/badge/Deloitte-Partner-blue?style=for-the-badge&logo=deloitte&logoColor=white)](https://www2.deloitte.com/)
+[![PwC](https://img.shields.io/badge/PwC-Partner-blue?style=for-the-badge&logo=pwc&logoColor=white)](https://www.pwc.com/)
+[![World Economic Forum](https://img.shields.io/badge/World%20Economic%20Forum-Partner-blue?style=for-the-badge&logo=wef&logoColor=white)](https://www.weforum.org/)
+[![Fintech Australia](https://img.shields.io/badge/Fintech%20Australia-Member-blue?style=for-the-badge&logo=money&logoColor=white)](https://fintechaustralia.org.au/)
+[![Global Blockchain Business Council](https://img.shields.io/badge/Global%20Blockchain%20Business%20Council-Member-blue?style=for-the-badge&logo=blockchain&logoColor=white)](https://gbbcouncil.org/)
+[![International Finance Corporation](https://img.shields.io/badge/International%20Finance%20Corporation-Partner-blue?style=for-the-badge&logo=ifc&logoColor=white)](https://www.ifc.org/)
+
 # TaqwaNet-MM
 TaqwaNet-MM-Core is the foundational repository for the TaqwaNet Muamalah Matrix project, encompassing the core functionalities and architecture of the advanced Islamic banking platform. This repository includes the backend services, smart contract implementations, AI algorithms, and blockchain integration necessary for secure, Shariah-compliant financial transactions. Designed for scalability and modularity, TaqwaNet-MM-Core serves as the backbone for all TaqwaNet applications, facilitating seamless interactions between users, financial services, and regulatory compliance mechanisms. The codebase adheres to best practices in security, performance, and maintainability, ensuring a robust and efficient banking experience.
 
