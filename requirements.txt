@@ -4,7 +4,7 @@ Flask-RESTful==0.3.9             # Extension for building REST APIs
 Flask-SQLAlchemy==2.5.1          # ORM for database interactions
 Flask-Migrate==3.1.0             # Database migration tool
 Flask-JWT-Extended==4.4.0        # JWT authentication for securing APIs
-Flask-Cors==3.0.10               # Cross-Origin Resource Sharing support
+Flask-Cors==4.0.2               # Cross-Origin Resource Sharing support
 
 # Database
 SQLAlchemy==1.4.36               # SQL toolkit and ORM
