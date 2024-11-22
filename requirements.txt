@@ -1,0 +1,35 @@
+# Core dependencies
+Flask==2.2.2                     # Web framework for building the application
+Flask-RESTful==0.3.9             # Extension for building REST APIs
+Flask-SQLAlchemy==2.5.1          # ORM for database interactions
+Flask-Migrate==3.1.0             # Database migration tool
+Flask-JWT-Extended==4.4.0        # JWT authentication for securing APIs
+Flask-Cors==3.0.10               # Cross-Origin Resource Sharing support
+
+# Database
+SQLAlchemy==1.4.36               # SQL toolkit and ORM
+psycopg2-binary==2.9.3           # PostgreSQL database adapter
+# or
+# mysqlclient==2.1.0              # MySQL database adapter
+
+# Blockchain
+web3==5.29.0                     # Ethereum blockchain interaction library
+
+# AI and Machine Learning
+scikit-learn==1.0.2              # Machine learning library
+pandas==1.3.5                    # Data manipulation and analysis
+numpy==1.21.4                    # Numerical computing
+nltk==3.6.3                      # Natural Language Toolkit for text processing
+
+# Testing
+pytest==6.2.5                    # Testing framework
+pytest-cov==2.12.1               # Coverage reporting for tests
+Flask-Testing==0.8.1             # Testing utilities for Flask applications
+
+# Security
+python-dotenv==0.19.2            # Load environment variables from .env file
+cryptography==36.0.1             # Cryptographic recipes and primitives
+
+# Other utilities
+requests==2.26.0                 # HTTP library for making requests
+beautifulsoup4==4.10.0           # HTML and XML parsing library
