@@ -1,0 +1,31 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .grid {
+        grid-template-columns: 1fr; /* Stack items on smaller screens */
+    }
+
+    .button {
+        width: 100%; /* Full-width buttons on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Smaller heading on mobile */
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 0.9rem; /* Smaller input fields on mobile */
+    }
+
+    .alert {
+        font-size: 0.9rem; /* Smaller alert messages on mobile */
+    }
+}
