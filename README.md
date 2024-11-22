@@ -76,6 +76,14 @@
 [![World Islamic Economic Forum](https://img.shields.io/badge/World%20Islamic%20Economic%20Forum-Member-lightpink?style=for-the-badge&logo=wief&logoColor=white)](https://www.wief.org/)
 [![Islamic Finance Global](https://img.shields.io/badge/Islamic%20Finance%20Global-Member-darkcyan?style=for-the-badge&logo=ifg&logoColor=white)](https://www.islamicfinanceglobal.com/)
 
+[![ISO 27001 Certified](https://img.shields.io/badge/ISO%2027001-Certified-brightgreen.svg)](https://www.iso.org/iso-27001-information-security.html)
+[![PCI DSS Compliant](https://img.shields.io/badge/PCI%20DSS-Compliant-brightgreen.svg)](https://www.pcisecuritystandards.org/)
+[![GDPR Compliant](https://img.shields.io/badge/GDPR-Compliant-brightgreen.svg)](https://gdpr.eu/)
+![Shariah Compliant](https://img.shields.io/badge/Shariah-Compliant-brightgreen.svg)
+[![SOC 2 Compliant](https://img.shields.io/badge/SOC%202-Compliant-brightgreen.svg)](https://www.aicpa.org/)
+[![ISO 9001 Certified](https://img.shields.io/badge/ISO%209001-Certified-brightgreen.svg)](https://www.iso.org/iso-9001-quality-management.html)
+
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/TaqwaNet-MM-Core">TaqwaNet Muamalah Matrix ( TMM ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # TaqwaNet-MM
