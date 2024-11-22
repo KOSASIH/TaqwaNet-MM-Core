@@ -60,6 +60,23 @@
 [![Blockchain for Climate Foundation](https://img.shields.io/badge/Blockchain%20for%20Climate%20Foundation-Member-lightgreen?style=for-the-badge&logo=climate&logoColor=white)](https://www.blockchainforclimate.org/)
 [![Blockchain and Climate Institute](https://img.shields.io/badge/Blockchain%20and%20Climate%20Institute-Member-darkorange?style=for-the-badge&logo=climate&logoColor=white)](https://www.blockchainclimate.org/)
 
+[![Islamic Financial Services Board](https://img.shields.io/badge/Islamic%20Financial%20Services%20Board-Member-blue?style=for-the-badge&logo=ifsb&logoColor=white)](https://www.ifsb.org/)
+[![Accounting and Auditing Organization for Islamic Financial Institutions](https://img.shields.io/badge/AAOIFI-Member-green?style=for-the-badge&logo=aaoifi&logoColor=white)](https://aaoifi.com/)
+[![Islamic Development Bank](https://img.shields.io/badge/Islamic%20Development%20Bank-Member-orange?style=for-the-badge&logo=idb&logoColor=white)](https://www.isdb.org/)
+[![International Islamic Financial Market](https://img.shields.io/badge/IIFM-Member-purple?style=for-the-badge&logo=iifm&logoColor=white)](https://www.iifm.net/)
+[![Islamic Finance Council UK](https://img.shields.io/badge/Islamic%20Finance%20Council%20UK-Member-red?style=for-the-badge&logo=ifc&logoColor=white)](https://www.ifc.org.uk/)
+[![Islamic Finance Institute of South Africa](https://img.shields.io/badge/IFISA-Member-lightblue?style=for-the-badge&logo=ifisa&logoColor=white)](https://www.ifisa.co.za/)
+[![Global Islamic Finance Forum](https://img.shields.io/badge/Global%20Islamic%20Finance%20Forum-Member-lightcoral?style=for-the-badge&logo=giff&logoColor=white)](https://www.giff.com.my/)
+[![Islamic Finance and Investment](https://img.shields.io/badge/Islamic%20Finance%20and%20Investment-Member-lightgreen?style=for-the-badge&logo=ifi&logoColor=white)](https://www.ifi.org/)
+[![International Islamic Trade Finance Corporation](https://img.shields.io/badge/IITFC-Member-darkorange?style=for-the-badge&logo=iitfc&logoColor=white)](https://www.itfc-idb.org/)
+[![Islamic Banking and Finance Institute Malaysia](https://img.shields.io/badge/IBFIM-Member-darkviolet?style=for-the-badge&logo=ibfim&logoColor=white)](https://www.ibfim.com/)
+[![Islamic Finance Research Institute](https://img.shields.io/badge/IFRI-Member-lightyellow?style=for-the-badge&logo=ifri&logoColor=white)](https://www.ifri.org/)
+[![Shari'ah Advisory Council](https://img.shields.io/badge/Shari'ah%20Advisory%20Council-Member-skyblue?style=for-the-badge&logo=shariah&logoColor=white)](https://www.sac.org/)
+[![Islamic Finance Network](https://img.shields.io/badge/Islamic%20Finance%20Network-Member-lightseagreen?style=for-the-badge&logo=ifn&logoColor=white)](https://www.ifn.com/)
+[![World Islamic Economic Forum](https://img.shields.io/badge/World%20Islamic%20Economic%20Forum-Member-lightpink?style=for-the-badge&logo=wief&logoColor=white)](https://www.wief.org/)
+[![Islamic Finance Global](https://img.shields.io/badge/Islamic%20Finance%20Global-Member-darkcyan?style=for-the-badge&logo=ifg&logoColor=white)](https://www.islamicfinanceglobal.com/)
+
+
 # TaqwaNet-MM
 TaqwaNet-MM-Core is the foundational repository for the TaqwaNet Muamalah Matrix project, encompassing the core functionalities and architecture of the advanced Islamic banking platform. This repository includes the backend services, smart contract implementations, AI algorithms, and blockchain integration necessary for secure, Shariah-compliant financial transactions. Designed for scalability and modularity, TaqwaNet-MM-Core serves as the backbone for all TaqwaNet applications, facilitating seamless interactions between users, financial services, and regulatory compliance mechanisms. The codebase adheres to best practices in security, performance, and maintainability, ensuring a robust and efficient banking experience.
 
