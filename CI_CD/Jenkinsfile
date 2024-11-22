@@ -1,0 +1,93 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_IMAGE = 'your-docker-repo/taqwanet'
+        DOCKER_CREDENTIALS_ID = 'dockerhub-credentials'
+        K8S_CREDENTIALS_ID = 'k8s-credentials'
+        K8S_NAMESPACE = 'default'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    docker.build(DOCKER_IMAGE)
+                }
+            }
+        }
+
+        stage('Unit Tests') {
+            steps {
+                script {
+                    sh './scripts/test.sh'
+                }
+            }
+        }
+
+        stage('Integration Tests') {
+            steps {
+                script {
+                    // Run integration tests in parallel
+                    parallel {
+                        stage('API Tests') {
+                            steps {
+                                sh 'pytest tests/test_api.py'
+                            }
+                        }
+                        stage('Service Tests') {
+                            steps {
+                                sh 'pytest tests/test_services.py'
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Push to Docker Hub') {
+            steps {
+                script {
+                    docker.withRegistry('https://index.docker.io/v1/', DOCKER_CREDENTIALS_ID) {
+                        docker.image(DOCKER_IMAGE).push('latest')
+                    }
+                }
+            }
+        }
+
+        stage('Deploy to Kubernetes') {
+            steps {
+                script {
+                    withKubeConfig([credentialsId: K8S_CREDENTIALS_ID, serverUrl: 'https://your-k8s-cluster']) {
+                        sh 'kubectl apply -f k8s/deployment.yaml'
+                        sh 'kubectl apply -f k8s/service.yaml'
+                        sh 'kubectl apply -f k8s/ingress.yaml'
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            junit '**/test-results/*.xml'
+            cleanWs()
+        }
+        success {
+            mail to: 'team@example.com',
+                 subject: "Build Successful: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                 body: "Good news! The build was successful."
+        }
+        failure {
+            mail to: 'team@example.com',
+                 subject: "Build Failed: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                 body: "Oops! The build has failed. Please check the logs."
+        }
+    }
+}
