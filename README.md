@@ -14,6 +14,21 @@
 [![Fintech Australia](https://img.shields.io/badge/Fintech%20Australia-Member-blue?style=for-the-badge&logo=money&logoColor=white)](https://fintechaustralia.org.au/)
 [![Global Blockchain Business Council](https://img.shields.io/badge/Global%20Blockchain%20Business%20Council-Member-blue?style=for-the-badge&logo=blockchain&logoColor=white)](https://gbbcouncil.org/)
 [![International Finance Corporation](https://img.shields.io/badge/International%20Finance%20Corporation-Partner-blue?style=for-the-badge&logo=ifc&logoColor=white)](https://www.ifc.org/)
+[![IMF](https://img.shields.io/badge/IMF-Certified-blue?style=for-the-badge&logo=imf&logoColor=white)](https://www.imf.org/)
+[![World Trade Organization](https://img.shields.io/badge/WTO-Certified-green?style=for-the-badge&logo=wto&logoColor=white)](https://www.wto.org/)
+[![Bank for International Settlements](https://img.shields.io/badge/BIS-Certified-orange?style=for-the-badge&logo=bis&logoColor=white)](https://www.bis.org/)
+[![Asian Development Bank](https://img.shields.io/badge/ADB-Certified-purple?style=for-the-badge&logo=adb&logoColor=white)](https://www.adb.org/)
+[![European Central Bank](https://img.shields.io/badge/ECB-Certified-red?style=for-the-badge&logo=ecb&logoColor=white)](https://www.ecb.europa.eu/)
+[![International Finance Corporation](https://img.shields.io/badge/IFC-Certified-lightblue?style=for-the-badge&logo=ifc&logoColor=white)](https://www.ifc.org/)
+[![OECD](https://img.shields.io/badge/OECD-Certified-darkgreen?style=for-the-badge&logo=oecd&logoColor=white)](https://www.oecd.org/)
+[![Financial Stability Board](https://img.shields.io/badge/FSB-Certified-lightcoral?style=for-the-badge&logo=fsb&logoColor=white)](https://www.fsb.org/)
+[![International Monetary Fund](https://img.shields.io/badge/IMF-Certified-skyblue?style=for-the-badge&logo=imf&logoColor=white)](https://www.imf.org/)
+[![World Bank Group](https://img.shields.io/badge/WBG-Certified-darkorange?style=for-the-badge&logo=worldbank&logoColor=white)](https://www.worldbank.org/)
+[![International Development Association](https://img.shields.io/badge/IDA-Certified-lightgreen?style=for-the-badge&logo=ida&logoColor=white)](https://ida.worldbank.org/)
+[![International Fund for Agricultural Development](https://img.shields.io/badge/IFAD-Certified-lightseagreen?style=for-the-badge&logo=ifad&logoColor=white)](https://www.ifad.org/)
+[![African Development Bank](https://img.shields.io/badge/AFDB-Certified-darkviolet?style=for-the-badge&logo=afdb&logoColor=white)](https://www.afdb.org/)
+[![Inter-American Development Bank](https://img.shields.io/badge/IADB-Certified-lightyellow?style=for-the-badge&logo=iadb&logoColor=white)](https://www.iadb.org/)
+[![Council of Europe Development Bank](https://img.shields.io/badge/CEB-Certified-lightgrey?style=for-the-badge&logo=ceb&logoColor=white)](https://www.coebank.org/)
 
 # TaqwaNet-MM
 TaqwaNet-MM-Core is the foundational repository for the TaqwaNet Muamalah Matrix project, encompassing the core functionalities and architecture of the advanced Islamic banking platform. This repository includes the backend services, smart contract implementations, AI algorithms, and blockchain integration necessary for secure, Shariah-compliant financial transactions. Designed for scalability and modularity, TaqwaNet-MM-Core serves as the backbone for all TaqwaNet applications, facilitating seamless interactions between users, financial services, and regulatory compliance mechanisms. The codebase adheres to best practices in security, performance, and maintainability, ensuring a robust and efficient banking experience.
