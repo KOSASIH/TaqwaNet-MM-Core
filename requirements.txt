@@ -31,5 +31,5 @@ python-dotenv==0.19.2            # Load environment variables from .env file
 cryptography==36.0.1             # Cryptographic recipes and primitives
 
 # Other utilities
-requests==2.26.0                 # HTTP library for making requests
+requests==2.32.2                 # HTTP library for making requests
 beautifulsoup4==4.10.0           # HTML and XML parsing library
