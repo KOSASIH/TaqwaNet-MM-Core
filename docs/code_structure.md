@@ -1,109 +1,118 @@
 TaqwaNet-MM-Core/
 │
-├── README.md                     # Project overview and setup instructions
-├── LICENSE                       # License information
-├── .gitignore                    # Files and directories to ignore in Git
-├── .env                          # Environment variables for configuration
+├── README.md
+├── LICENSE
+├── .gitignore
+├── .env
 │
-├── docs/                         # Documentation files
-│   ├── architecture.md           # System architecture overview
-│   ├── API_reference.md          # API documentation
-│   ├── user_guide.md             # User guides and tutorials
-│   ├── compliance_guidelines.md   # Shariah compliance guidelines
-│   └── security_best_practices.md # Security best practices
+├── docs/
+│   ├── architecture.md
+│   ├── API_reference.md
+│   ├── user_guide.md
+│   ├── compliance_guidelines.md
+│   ├── security_best_practices.md
+│   └── advanced_features.md          
 │
-├── src/                          # Source code directory
-│   ├── main/                     # Main application code
-│   │   ├── app.py                # Entry point for the application
-│   │   ├── config.py             # Configuration settings
-│   │   ├── logger.py             # Logging utility
-│   │   └── middleware/           # Middleware for request handling
-│   │       ├── auth.py           # Authentication middleware
-│   │       ├── error_handling.py  # Error handling middleware
-│   │       └── rate_limiting.py   # Rate limiting middleware
+├── src/
+│   ├── main/
+│   │   ├── app.py
+│   │   ├── config.py
+│   │   ├── logger.py
+│   │   └── middleware/
+│   │       ├── auth.py
+│   │       ├── error_handling.py
+│   │       └── rate_limiting.py
+│ │   │
+│   ├── services/
+│   │   ├── banking_service.py
+│   │   ├── investment_service.py
+│   │   ├── zakat_service.py
+│   │   ├── community_service.py
+│   │   ├── notification_service.py
+│   │   ├── analytics_service.py
+│   │   ├── real_time_analytics.py     
+│   │   └── personalized_advisory.py    
 │   │
-│   ├── services/                 # Business logic and services
-│   │   ├── banking_service.py     # Core banking functionalities
-│   │   ├── investment_service.py   # Investment management functionalities
-│   │   ├── zakat_service.py        # Zakat calculation and management
-│   │   ├── community_service.py     # Community engagement features
-│   │   ├── notification_service.py  # Notification management (email, SMS, etc.)
-│   │   └── analytics_service.py     # Data analytics and reporting
+│   ├── models/
+│   │   ├── user.py
+│   │   ├── transaction.py
+│   │   ├── investment.py
+│   │   ├── compliance.py
+│   │   ├── audit_log.py
+│   │   ├── feedback.py
+│   │   └── asset_tokenization.py       
 │   │
-│   ├── models/                   # Data models and schemas
-│   │   ├── user.py               # User model
-│   │   ├── transaction.py         # Transaction model
-│   │   ├── investment.py          # Investment model
-│   │   ├── compliance.py          # Compliance model
-│   │   ├── audit_log.py           # Audit log model for tracking changes
-│   │   └── feedback.py            # User feedback model
+│   ├── controllers/
+│   │   ├── user_controller.py
+│   │   ├── transaction_controller.py
+│   │   ├── investment_controller.py
+│   │   ├── community_controller.py
+│   │   ├── notification_controller.py
+│   │   ├── analytics_controller.py
+│   │   └── governance_controller.py     
 │   │
-│   ├── controllers/              # API controllers
-│   │   ├── user_controller.py     # User-related API endpoints
-│   │   ├── transaction_controller.py # Transaction-related API endpoints
-│   │   ├── investment_controller.py  # Investment-related API endpoints
-│   │   ├── community_controller.py   # Community-related API endpoints
-│   │   ├── notification_controller.py # Notification-related API endpoints
-│   │   └── analytics_controller.py   # Analytics and reporting API endpoints
+│   ├── blockchain/
+│   │   ├── smart_contracts/
+│   │   │   ├── investment_contract.sol
+│   │   │   ├── zakat_contract.sol
+│   │   │   ├── governance_contract.sol
+│   │   │   └── lending_contract.sol      
+│   │   ├── blockchain_service.py
+│   │   └── utils.py
 │   │
-│   ├── blockchain/               # Blockchain integration
-│   │   ├── smart_contracts/       # Smart contracts
-│   │   │   ├── investment_contract.sol # Investment smart contract
-│   │   │   ├── zakat_contract.sol     # Zakat smart contract
-│   │   │   └── governance_contract.sol  # Governance and voting smart contract
-│   │   ├── blockchain_service.py   # Blockchain interaction service
-│   │   └── utils.py               # Utility functions for blockchain
+│   ├── ai/
+│   │   ├── recommendation_engine.py
+│   │   ├── fraud_detection.py
+│   │   ├── market_analysis.py
+│   │   ├── sentiment_analysis.py
+│   │   ├── predictive_model.py
+│   │   └── deep_learning_models.py       
 │   │
-│   ├── ai/                       # AI and machine learning components
-│   │   ├── recommendation_engine.py # AI-driven financial advisory
-│   │   ├── fraud_detection.py      # Fraud detection algorithms
-│   │   ├── market_analysis.py      # Market trend analysis
-│   │   ├── sentiment_analysis.py    # Sentiment analysis for investment decisions
-│   │   └── predictive_model.py      # Predictive modeling for financial forecasting
+│   ├── security/
+│   │   ├── encryption.py
+│   │   ├── biometric_auth.py
+│   │   ├── quantum_security.py
+│   │   ├── intrusion_detection.py
+│   │   ├── secure_storage.py
+│   │   └── zero_trust.py                 
 │   │
-│   ├── security/                 # Security features
-│   │   ├── encryption.py          # Encryption utilities
-│   │   ├── biometric_auth.py       # Biometric authentication methods
-│   │   ├── quantum_security.py      # Quantum encryption methods
-│   │   ├── intrusion_detection.py   # Intrusion detection system
-│   │   └── secure_storage.py       # Secure storage for sensitive data
+│   ├── tests/
+│   │   ├── test_user.py
+│   │   ├── test_transaction.py
+│   │   ├── test_investment.py
+│   │   ├── test_api.py
+│   │   ├── test_services.py
+│   │   ├── test_models.py
+│   │   ├── test_controllers.py
+│   │   ├── test_security.py
+│   │   ├── test_ai.py
+│   │   └── test_blockchain.py            
 │   │
-│   ├── tests/                    # Unit and integration tests
-│   │   ├── test_user.py           # User model tests
-│   │   ├── test_transaction.py     # Transaction model tests
-│   │   ├── test_investment.py      # Investment model tests
-│   │   ├── test_api.py            # API endpoint tests
-│   │   ├── test_services.py        # Unit tests for services
-│   │   ├── test_models.py          # Unit tests for models
-│   │   ├── test_controllers.py     # Unit tests for controllers
-│   │   ├── test_security.py        # Security feature tests
-│   │   └── test_ai.py             # AI component tests
-│   │
-│   └── mocks/                    # Mock data for testing
-│       ├── mock_user.py            # Mock user data
-│       ├── mock_transaction.py      # Mock transaction data
-│       ├── mock_investment.py       # Mock investment data
-│       └── mock_feedback.py         # Mock feedback data
+│   └── mocks/
+│       ├── mock_user.py
+│       ├── mock_transaction.py
+│       ├── mock_investment.py
+│       └── mock_feedback.py
 │
-├── scripts/                      # Scripts for deployment and maintenance
-│   ├── deploy.sh                  # Deployment script
-│   ├── migrate_db.py              # Database migration script
-│   ├── seed_db.py                 # Database seeding script
-│   └── backup_db.sh               # Database backup script
+├── scripts/
+│   ├── deploy.sh
+│   ├── migrate_db.py
+│   ├── seed_db.py
+│   └── backup_db.sh
 │
-├── docker/                       # Docker configuration
-│   ├── Dockerfile                 # Dockerfile for building the application
-│   └── docker-compose.yml         # Docker Compose configuration
+├── docker/
+│   ├── Dockerfile
+│   └── docker-compose.yml
 │
-├── k8s/                          # Kubernetes configuration
-│   ├── deployment.yaml            # Deployment configuration
-│   ├── service.yaml               # Service configuration
-│   └── ingress.yaml               # Ingress configuration
+├── k8s/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── ingress.yaml
 │
-└── CI_CD/                        # Continuous Integration/Continuous Deployment
-    ├── Jenkinsfile                # Jenkins pipeline configuration
-    ├── .github/workflows/         # GitHub Actions workflows
-    │   └── ci.yml                 # CI workflow configuration
-    └── scripts/                   # CI/CD scripts
-        ├── build.sh               # Build script
-        └── test.sh                # Test script
+└── CI_CD/
+    ├── Jenkinsfile
+    ├── .github/workflows/
+    │   └── ci.yml
+    └── scripts/
+        ├── build.sh
+        └── test.sh
