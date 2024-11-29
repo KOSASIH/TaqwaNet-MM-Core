@@ -28,7 +28,7 @@ Flask-Testing==0.8.1             # Testing utilities for Flask applications
 
 # Security
 python-dotenv==0.19.2            # Load environment variables from .env file
-cryptography==36.0.1             # Cryptographic recipes and primitives
+cryptography==43.0.1             # Cryptographic recipes and primitives
 
 # Other utilities
 requests==2.26.0                 # HTTP library for making requests
